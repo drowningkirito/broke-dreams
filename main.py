@@ -5,7 +5,7 @@ import json
 import currencyapicom
 url = "https://api.currencyapi.com/v3/latest"
 headers = {
-'apikey': 'cur_live_Vfej6wYhtrgRyjI8Y5kkI0FnojOu4LM9o8PUPVzU'
+'apikey': 'YOUR API'
 }
         
 response=re.get(url,headers=headers)
@@ -15,7 +15,7 @@ for i in currency["data"]:
     currency_name.append(i)
 class Mycurrency():
     def converting(self):
-        client = currencyapicom.Client('cur_live_Vfej6wYhtrgRyjI8Y5kkI0FnojOu4LM9o8PUPVzU')
+        client = currencyapicom.Client('Your API')
         c1=c1_menu.get()
         c2=c2_menu.get()
         print(c1,c2)
