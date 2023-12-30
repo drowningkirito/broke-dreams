@@ -93,7 +93,7 @@ User-Friendly Interfaces: Intuitive interfaces with dropdown menus, auto-suggest
 
 | File                                                                        | Summary       |
 | ---                                                                         | ---           |
-| [main.py](https://github.com/drowningkirito/broke-dreams/blob/main/main.py) | ► INSERT-TEXT |
+| [main.py](https://github.com/drowningkirito/broke-dreams/blob/main/main.py) | ► tkinter,ttkbootstrap,requests |
 
 </details>
 
@@ -105,11 +105,15 @@ User-Friendly Interfaces: Intuitive interfaces with dropdown menus, auto-suggest
 
 Please ensure you have the following dependencies installed on your system:
 
-`- ℹ️ Dependency 1`
+`- ℹ️ ttkbootstrap`
 
-`- ℹ️ Dependency 2`
+`- ℹ️ tkinter`
 
-`- ℹ️ ...`
+`- ℹ️ requests`
+
+`- ℹ️ json`
+
+`- ℹ️ currencyapicom`
 
 ### 🔧 Installation
 
@@ -146,7 +150,7 @@ pytest
 
 > - [X] `ℹ️  Task 1: Generate Free Api Key From https://currencyapi.com/ `
 > - [ ] `ℹ️  Task 2: replace "your api" in main.py with generated api key `
-> - [ ] `ℹ️  Task 3: Install  ttkbootstrap,tkinter,currencyapicom,requests`
+> - [ ] `ℹ️  Task 3:`
 
 
 ---
