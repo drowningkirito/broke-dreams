@@ -18,7 +18,6 @@ class Mycurrency():
         client = currencyapicom.Client('Your API')
         c1=c1_menu.get()
         c2=c2_menu.get()
-        print(c1,c2)
         result = client.latest(c1,currencies=[c2])
         convertedVal=float(entry1.get())*result["data"][c2]["value"]
         display.config(text=str(convertedVal))
